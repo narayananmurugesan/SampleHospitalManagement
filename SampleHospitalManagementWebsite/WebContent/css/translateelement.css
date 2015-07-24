@@ -1,0 +1,669 @@
+
+.goog-te-banner-frame {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #6b90da;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    box-shadow: 0 0 8px 1px #999999;
+    height: 39px;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000001;
+}
+.goog-te-menu-frame {
+    border: medium none;
+    box-shadow: 0 3px 8px 2px #999999;
+    position: fixed;
+    z-index: 10000002;
+}
+.goog-te-ftab-frame {
+    border: medium none;
+    margin: 0;
+    z-index: 10000000;
+}
+.goog-te-gadget {
+    color: #666;
+    font-family: arial;
+    font-size: 11px;
+    white-space: nowrap;
+}
+.goog-te-gadget img {
+    border: medium none;
+    vertical-align: middle;
+}
+.goog-te-gadget-simple {
+    background-color: #fff;
+    border-color: #9b9b9b #d5d5d5 #e8e8e8;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10pt;
+    padding-bottom: 2px;
+    padding-top: 1px;
+}
+.goog-te-gadget-icon {
+    border: medium none;
+    height: 19px;
+    margin-left: 2px;
+    margin-right: 2px;
+    vertical-align: middle;
+    width: 19px;
+}
+.goog-te-combo {
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: baseline;
+}
+.goog-te-gadget .goog-te-combo {
+    margin: 4px 0;
+}
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {
+    color: #444;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.goog-te-banner .goog-logo-link, .goog-close-link {
+    display: block;
+    margin: 0 10px;
+}
+.goog-te-banner .goog-logo-link {
+    padding-left: 4px;
+    padding-top: 2px;
+}
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * {
+    font-family: arial;
+    font-size: 10pt;
+}
+.goog-te-banner {
+    background-color: #e4effb;
+    margin: 0;
+    overflow: hidden;
+}
+.goog-te-banner img {
+    border: medium none;
+}
+.goog-te-banner-content {
+    color: #000;
+}
+.goog-te-banner-content img {
+    vertical-align: middle;
+}
+.goog-te-banner-info {
+    color: #666;
+    font-size: 7pt;
+    margin-top: 0;
+    vertical-align: top;
+}
+.goog-te-banner-margin {
+    width: 8px;
+}
+.goog-te-button {
+    border-color: #e7e7e7;
+    border-style: none solid solid none;
+    border-width: 0 1px 1px 0;
+}
+.goog-te-button div {
+    border-color: #cccccc #999999 #999999 #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    height: 20px;
+}
+.goog-te-button button {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    height: 20px;
+    margin: 0;
+    overflow: hidden;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.goog-te-button button:active {
+    background: #cccccc none repeat scroll 0 0;
+}
+.goog-te-ftab {
+    background-color: #fff;
+    margin: 0;
+    white-space: nowrap;
+}
+.goog-te-ftab-link {
+    border: 1px outset #888;
+    font-size: 10pt;
+    font-weight: bold;
+    left: 0;
+    padding: 6px 10px;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    white-space: nowrap;
+}
+.goog-te-ftab-link img {
+    border: medium none;
+    height: 19px;
+    margin-left: 2px;
+    margin-right: 2px;
+    vertical-align: middle;
+    width: 19px;
+}
+.goog-te-ftab-link span {
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+.goog-float-top .goog-te-ftab-link {
+    border-top-width: 0;
+    padding: 2px;
+}
+.goog-float-bottom .goog-te-ftab-link {
+    border-bottom-width: 0;
+    padding: 2px;
+}
+.goog-te-menu-value {
+    color: #0000cc;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.goog-te-menu-value span {
+    text-decoration: underline;
+}
+.goog-te-menu-value img {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.goog-te-gadget-simple .goog-te-menu-value {
+    color: #000;
+}
+.goog-te-gadget-simple .goog-te-menu-value span {
+    text-decoration: none;
+}
+.goog-te-menu {
+    background-color: #ffffff;
+    border: 2px solid #c3d9ff;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+}
+.goog-te-menu-item {
+    padding: 3px;
+    text-decoration: none;
+}
+.goog-te-menu-item, .goog-te-menu-item:link {
+    background: #ffffff none repeat scroll 0 0;
+    color: #0000cc;
+}
+.goog-te-menu-item:visited {
+    color: #551a8b;
+}
+.goog-te-menu-item:hover {
+    background: #c3d9ff none repeat scroll 0 0;
+}
+.goog-te-menu-item:active {
+    color: #0000cc;
+}
+.goog-te-menu2 {
+    background-color: #ffffff;
+    border: 1px solid #6b90da;
+    overflow: hidden;
+    padding: 4px;
+    text-decoration: none;
+}
+.goog-te-menu2-colpad {
+    width: 16px;
+}
+.goog-te-menu2-separator {
+    background-color: #aaa;
+    height: 1px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+.goog-te-menu2-item div, .goog-te-menu2-item-selected div {
+    padding: 4px;
+}
+.goog-te-menu2-item .indicator {
+    display: none;
+}
+.goog-te-menu2-item-selected .indicator {
+}
+.goog-te-menu2-item-selected .text {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.goog-te-menu2-item, .goog-te-menu2-item-selected {
+    text-decoration: none;
+}
+.goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div {
+    background: #ffffff none repeat scroll 0 0;
+    color: #0000cc;
+}
+.goog-te-menu2-item:hover div {
+    background: #3366cc none repeat scroll 0 0;
+    color: #ffffff;
+}
+.goog-te-menu2-item-selected div, .goog-te-menu2-item-selected:link div, .goog-te-menu2-item-selected:visited div, .goog-te-menu2-item-selected:hover div, .goog-te-menu2-item-selected:active div {
+    color: #000;
+    font-weight: bold;
+}
+.goog-te-balloon {
+    background-color: #ffffff;
+    border: medium none;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 8px;
+}
+.goog-te-balloon-frame {
+    background-color: #ffffff;
+    border: 1px solid #6b90da;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px 2px #999999;
+}
+.goog-te-balloon img {
+    border: medium none;
+}
+.goog-te-balloon-text {
+    margin-top: 6px;
+}
+.goog-te-balloon-zippy {
+    margin-top: 6px;
+    white-space: nowrap;
+}
+.goog-te-balloon-zippy * {
+    vertical-align: middle;
+}
+.goog-te-balloon-zippy .minus {
+    background-image: url("//www.google.com/images/zippy_minus_sm.gif");
+}
+.goog-te-balloon-zippy .plus {
+    background-image: url("//www.google.com/images/zippy_plus_sm.gif");
+}
+.goog-te-balloon-zippy span {
+    color: #00c;
+    cursor: pointer;
+    margin: 0 4px;
+    text-decoration: underline;
+}
+.goog-te-balloon-form {
+    margin: 6px 0 0;
+}
+.goog-te-balloon-form form {
+    margin: 0;
+}
+.goog-te-balloon-form form textarea {
+    margin-bottom: 4px;
+    width: 100%;
+}
+.goog-te-balloon-footer {
+    margin: 6px 0 4px;
+}
+#goog-gt-tt html, #goog-gt-tt body, #goog-gt-tt div, #goog-gt-tt span, #goog-gt-tt iframe, #goog-gt-tt h1, #goog-gt-tt h2, #goog-gt-tt h3, #goog-gt-tt h4, #goog-gt-tt h5, #goog-gt-tt h6, #goog-gt-tt p, #goog-gt-tt a, #goog-gt-tt img, #goog-gt-tt ol, #goog-gt-tt ul, #goog-gt-tt li, #goog-gt-tt table, #goog-gt-tt form, #goog-gt-tt tbody, #goog-gt-tt tr, #goog-gt-tt td {
+    border: 0 none;
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-kerning: inherit;
+    font-language-override: inherit;
+    font-size: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-synthesis: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: baseline;
+}
+#goog-gt-tt ol, #goog-gt-tt ul {
+    list-style: outside none none;
+}
+#goog-gt-tt table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#goog-gt-tt caption, #goog-gt-tt th, #goog-gt-tt td {
+    font-weight: normal;
+    text-align: left;
+}
+#goog-gt-tt input::-moz-focus-inner {
+    border: 0 none;
+}
+div#goog-gt-tt {
+    padding: 10px 14px;
+}
+#goog-gt-tt {
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    color: #222;
+    display: none;
+    font-family: arial;
+    font-size: 10pt;
+    padding: 12px;
+    position: absolute;
+    width: 420px;
+    z-index: 10000;
+}
+#goog-gt-tt .original-text, .gt-hl-layer {
+    clear: both;
+    font-size: 10pt;
+    position: relative;
+    text-align: justify;
+    width: 100%;
+}
+#goog-gt-tt .title {
+    color: #999;
+    font-family: arial,sans-serif;
+    margin: 4px 0;
+    text-align: left;
+}
+#goog-gt-tt .close-button {
+    display: none;
+}
+#goog-gt-tt .logo {
+    float: left;
+    margin: 0;
+}
+#goog-gt-tt .activity-links {
+    display: inline-block;
+}
+#goog-gt-tt .started-activity-container {
+    display: none;
+    width: 100%;
+}
+#goog-gt-tt .activity-root {
+    margin-top: 20px;
+}
+#goog-gt-tt .left {
+    float: left;
+}
+#goog-gt-tt .right {
+    float: right;
+}
+#goog-gt-tt .bottom {
+    height: 1%;
+    min-height: 15px;
+    position: relative;
+}
+#goog-gt-tt .status-message {
+    background: #29910d none repeat scroll 0 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px #1e6609 inset;
+    color: white;
+    font-size: 9pt;
+    font-weight: bolder;
+    margin-top: 12px;
+    padding: 6px;
+    text-shadow: 1px 1px 1px #1e6609;
+}
+#goog-gt-tt .activity-link {
+    color: #1155cc;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 11px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+#goog-gt-tt textarea {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: silver #d9d9d9 #d9d9d9;
+    border-image: none;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: arial;
+    font-size: 13px;
+    height: auto;
+    margin-bottom: 10px;
+    overflow-y: auto;
+    padding: 1px;
+    resize: vertical;
+    width: 100%;
+}
+#goog-gt-tt textarea:focus {
+    border: 1px solid #4d90fe;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    outline: medium none;
+}
+#goog-gt-tt .activity-cancel {
+    margin-right: 10px;
+}
+#goog-gt-tt .translate-form {
+    min-height: 25px;
+    padding-top: 8px;
+    vertical-align: middle;
+}
+#goog-gt-tt .translate-form .activity-form {
+    margin-bottom: 0;
+}
+#goog-gt-tt .translate-form .activity-form input {
+    -moz-user-select: none;
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(center top , #f5f5f5, #f1f1f1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #444;
+    cursor: default;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin: 0 16px 0 0;
+    min-width: 54px;
+    outline: 0 none;
+    padding: 0 8px;
+    text-align: center;
+    transition: all 0.218s ease 0s;
+    vertical-align: middle;
+}
+#goog-gt-tt .translate-form .activity-form input:hover {
+    background-color: #f8f8f8;
+    background-image: -moz-linear-gradient(center top , #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+    transition: all 0s ease 0s;
+}
+#goog-gt-tt .translate-form .activity-form input:active {
+    background-color: #f6f6f6;
+    background-image: -moz-linear-gradient(center top , #f6f6f6, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    color: #333;
+}
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .translate-form .activity-form input.focus {
+    border: 1px solid #4d90fe;
+    outline: medium none;
+    z-index: 4 !important;
+}
+#goog-gt-tt .translate-form .activity-form input.selected {
+    background-color: #eeeeee;
+    background-image: -moz-linear-gradient(center top , #eeeeee, #e0e0e0);
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    color: #333;
+}
+#goog-gt-tt .translate-form .activity-form input.activity-submit {
+    background-color: #4d90fe;
+    background-image: -moz-linear-gradient(center top , #4d90fe, #4787ed);
+    border-color: #3079ed;
+    color: white;
+}
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover #goog-gt-tt .translate-form .activity-form input.activity-submit:focus, #goog-gt-tt .translate-form .activity-form input.activity-submit.focus #goog-gt-tt .translate-form .activity-form input.activity-submit:active {
+    background-color: #357ae8;
+    background-image: -moz-linear-gradient(center top , #4d90fe, #357ae8);
+    border-color: #3079ed;
+}
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover {
+    box-shadow: 0 0 0 1px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+#goog-gt-tt .translate-form .activity-form input:focus, #goog-gt-tt .translate-form .activity-form input.focus, #goog-gt-tt .translate-form .activity-form input:active, #goog-gt-tt .translate-form .activity-form input:hover, #goog-gt-tt .translate-form .activity-form input.activity-submit:focus, #goog-gt-tt .translate-form .activity-form input.activity-submit.focus, #goog-gt-tt .translate-form .activity-form input.activity-submit:active, #goog-gt-tt .translate-form .activity-form input.activity-submit:hover {
+    border-color: #3079ed;
+}
+#goog-gt-tt .gray {
+    color: #999;
+    font-family: arial,sans-serif;
+}
+#goog-gt-tt .alt-helper-text {
+    color: #999;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    margin: 15px 0 5px;
+}
+#goog-gt-tt .alt-error-text {
+    color: #800;
+    display: none;
+    font-size: 9pt;
+}
+.goog-text-highlight {
+    background-color: #c9d7f1;
+    box-shadow: 2px 2px 4px #9999aa;
+    box-sizing: border-box;
+    position: relative;
+}
+#goog-gt-tt .alt-menu.goog-menu {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 4px #99a;
+    min-width: 0;
+    outline: medium none;
+    padding: 0;
+    position: absolute;
+    z-index: 2000;
+}
+#goog-gt-tt .alt-menu .goog-menuitem {
+    border-style: none;
+    cursor: pointer;
+    margin-right: 0;
+    padding: 2px 5px 5px;
+}
+#goog-gt-tt .alt-menu div.goog-menuitem:hover {
+    background: #ddd none repeat scroll 0 0;
+}
+#goog-gt-tt .alt-menu .goog-menuitem h1 {
+    font-size: 100%;
+    font-weight: bold;
+    margin: 4px 0;
+}
+#goog-gt-tt .alt-menu .goog-menuitem strong {
+    color: #345aad;
+}
+#goog-gt-tt .goog-submenu-arrow {
+    left: auto;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+#goog-gt-tt .goog-menuitem-rtl .goog-submenu-arrow {
+    left: 0;
+    position: absolute;
+    right: auto;
+    text-align: left;
+}
+#goog-gt-tt .gt-hl-text, #goog-gt-tt .trans-target-highlight {
+    background-color: #f1ea00;
+    border-radius: 4px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    color: #f1ea00;
+    cursor: pointer;
+    margin: -2px -2px -2px -3px;
+    padding: 2px 2px 2px 3px;
+    position: relative;
+}
+#goog-gt-tt .trans-target-highlight {
+    color: #222;
+}
+#goog-gt-tt .gt-hl-layer {
+    color: white;
+    position: absolute !important;
+}
+#goog-gt-tt .trans-target, #goog-gt-tt .trans-target .trans-target-highlight {
+    background-color: #c9d7f1;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: -2px -2px -2px -3px;
+    padding: 2px 2px 3px 3px;
+    position: relative;
+}
+#goog-gt-tt span:focus {
+    outline: medium none;
+}
+#goog-gt-tt .trans-edit {
+    background-color: transparent;
+    border: 1px solid #4d90fe;
+    border-radius: 0;
+    margin: -2px;
+    padding: 1px;
+}
+#goog-gt-tt .gt-trans-highlight-l {
+    border-left: 2px solid red;
+    margin-left: -2px;
+}
+#goog-gt-tt .gt-trans-highlight-r {
+    border-right: 2px solid red;
+    margin-right: -2px;
+}
+#goog-gt-tt #alt-input {
+    padding: 2px;
+}
+#goog-gt-tt #alt-input-text {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #c0c0c0 #d9d9d9 #d9d9d9;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    color: #333;
+    display: inline-block;
+    font-size: 11px;
+    height: 21px;
+    margin: 0;
+    padding: 2px 2px 3px;
+    vertical-align: top;
+}
+#goog-gt-tt #alt-input-text:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+#goog-gt-tt #alt-input-text:focus {
+    border: 1px solid #4d90fe;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    outline: medium none;
+}
+#goog-gt-tt #alt-input-submit {
+    font-size: 11px;
+    height: 21px;
+    margin: 0 0 0 2px;
+    padding: 2px 6px 3px;
+}
